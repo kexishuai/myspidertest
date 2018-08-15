@@ -64,4 +64,5 @@ class Red_sqlSpider(scrapy.Spider):
             except:
                 item['title'] = ''
                 item['audio_url'] = ''
+
             yield item
